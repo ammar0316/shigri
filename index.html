@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<>
+    <h1>calculator</h1>
+    <form onsubmit="dosum(); return false">
+    num1: <input id="num1" type="text">
+    <br>
+   
+    num2:<input id="num2" type="text">
+    <br>
+    <button type="submit">sum</button>
+    </form>
+<script>
+function dosum(){
+let firstNumber = +document.querySelector("#num1").value
+let secondNumber = +document.querySelector("#num2").value
+let sum = firstNumber + secondNumber;
+console.log(firstNumber + secondNumber);
+
+}
+
+
+</script>
+
+
+
+
+<h1>calculator</h1>
+<form onsubmit="dodivide(); return false">
+num1: <input id="num1" type="text">
+<br>
+
+num2:<input id="num2" type="text">
+<br>
+<button type="submit">divide</button>
+</form>
+<script>
+function dodivide(){
+let firstNumber = +document.querySelector("#num1").value
+let secondNumber = +document.querySelector("#num2").value
+let divide = firstNumber / secondNumber;
+console.log(firstNumber / secondNumber);
+
+}
+
+
+</script>
+
+
+
+<h1>calculator</h1>
+<form onsubmit="dosubtract(); return false">
+num1: <input id="num1" type="text">
+<br>
+
+num2:<input id="num2" type="text">
+<br>
+<button type="submit">subtract</button>
+</form>
+<script>
+function dosubtract(){
+let firstNumber = +document.querySelector("#num1").value
+let secondNumber = +document.querySelector("#num2").value
+let subtract = firstNumber - secondNumber;
+console.log(firstNumber - secondNumber);
+
+}
+
+
+</script>
+
+
+
+
+<h1>calculator</h1>
+<form onsubmit="domultiply(); return false">
+num1: <input id="num1" type="text">
+<br>
+
+num2:<input id="num2" type="text">
+<br>
+<button type="submit">multiply</button>
+</form>
+<script>
+function domultiply(){
+let firstNumber = +document.querySelector("#num1").value
+let secondNumber = +document.querySelector("#num2").value
+let multiply = firstNumber * secondNumber;
+console.log(firstNumber * secondNumber);
+
+}
+
+
+</script>
+</body>
+</html>
+
+
+</body>
+</html>
